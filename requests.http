@@ -1,0 +1,27 @@
+POST http://localhost:8082/
+Content-Type: application/json
+
+{
+"fullname":"Rajiya R", "contact":234323434, "experience":10.5, "commercials":13900, "expert":"Java"
+}
+
+
+###
+
+GET http://localhost:8082/
+
+
+###
+PUT http://localhost:8082/6524f73b5b0fcd68944223b2
+Content-Type: application/json
+
+{
+    "fullname": "Rajiya R",
+    "experience": 5,
+    "commercials": 2000,
+    "expert": "Java",
+    "contact": 234323434
+}
+
+###
+DELETE http://localhost:8082/6524f7fef269ee099044a87d

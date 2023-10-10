@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://razak:mohamed@cluster0.ptmlylq.mongodb.net/forenoon?retryWrites=true&w=majority
